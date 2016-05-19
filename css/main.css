@@ -1,0 +1,247 @@
+p{
+    font-size:120%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:justify;
+    color:#333333;
+    font-weight:400;
+    
+}
+.main{
+    padding-top:30px;
+    padding-bottom:30px;
+    height:auto;
+    width:100%;
+    color:#333333;
+    text-align:center;
+}
+.main-center{
+    margin-left:auto;
+    margin-right:auto;
+    width:353px;
+    min-height:200px;
+}
+.main > h1{
+    margin-top:20px;
+    margin-bottom:20px;
+    text-shadow:2px 2px 3px #000000; 
+    color:#46A0D5;
+    font-weight:900;
+    letter-spacing: 2px;
+    font-size:300%;
+    
+}
+.main-box{
+    position:absolute;
+    display:none;
+}
+.main-box > i{
+    font-size:300%;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+.main-box > h1{
+    font-size:200%;
+    font-weight:900;
+    text-shadow:1px 1px 1px #000000;
+    letter-spacing:2px;
+    margin:0;
+    margin-top:12.5px;
+    margin-bottom:12.5px;
+    padding:0;
+    float:left;
+}
+.main-box > p{
+    font-size:100%;
+    width:353px;
+    text-align:justify;
+    color:#333333;
+    font-weight:400;
+   
+}
+.active{
+    display:block;   
+    
+}
+    /* DOTS */
+.dots{
+    position:relative;
+    padding-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+    text-align:center;   
+}
+.dot{
+    display:inline-block;
+    width:14px;
+    height:14px;
+    border-radius:12px;
+    border:1px solid #666666;
+    background-color:#d8d8d8;
+    box-shadow:0px 0px 2px #d8d8d8;
+    opacity:0.5;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.dot:hover{
+    opacity:1;
+    cursor:pointer;
+}
+.active_dot{
+    opacity:1;   
+}
+/*KONIEC DOTS */
+.btn{
+    display:inline-block;
+    margin: 0 auto;
+    background-color:#1ABB9C;
+    font-size:80%;
+    padding: 10px 15px 10px;
+    border-radius:3px 6px 3px;
+    color:#ffffff;
+    font-size:150%; 
+    font-weight:300; 
+    text-shadow:1px 1px 2px #000000;
+}
+.btn:hover{
+    background-color:#17A78B;
+    cursor:pointer;
+ }
+.btn_n{
+    float:right; 
+    color:#333333;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.btn_n:hover{
+    color:#1ABB9C;
+}
+/*O nas*/
+    .about{
+        padding-top:30px;
+        padding-bottom:30px;
+        height:auto;
+        width:100%;
+        color:#ffffff;
+        text-align:center;
+    }
+    .about > h1{
+        margin-top:20px;
+        margin-bottom:20px;
+        text-shadow:2px 2px 3px #000000; 
+        color:#46A0D5;
+        font-weight:900;
+        letter-spacing: 2px;
+        font-size:300%;
+    
+}
+    .about > p{
+        padding-left:20%;
+        padding-right:20%;
+        /*text-indent:50px;  Wcięcie*/
+    }
+ /*Newsy*/
+    .present{
+        padding-top:30px;
+        padding-bottom:30px;
+        height:auto;
+        width:100%;
+        color:#ffffff;
+        text-align:center;
+    }
+    .present > h1{
+        margin-top:20px;
+        margin-bottom:20px;
+        text-shadow:2px 2px 3px #000000; 
+        color:#46A0D5;
+        font-weight:900;
+        letter-spacing: 2px;
+        font-size:300%;
+
+}   
+/*Kontakt*/
+    .contact{
+        padding-top:30px;
+        padding-bottom:30px;
+        height:auto;
+        width:100%;
+        color:#333333;
+        text-align:center;
+        background-size: cover;
+        background-position:center center;
+        background-image:url('../obrazy/contact.jpg');
+    }
+    .contact > h1{
+        margin-top:20px;
+        margin-bottom:20px;
+        text-shadow:2px 2px 3px #000000; 
+        color:#46A0D5;
+        font-weight:900;
+        letter-spacing: 2px;
+        font-size:300%;
+}
+    .contact > p{
+        padding-left:25%;
+        padding-right:25%;
+    }
+/*Sprzet*/
+    .cars{
+        height:auto;
+        overflow:hidden;
+        width:100%;
+        color:#ffffff;
+        text-align:center;
+        background-color:#f2f2f2;
+        border-top: 1px solid #d8d8d8;
+        border-bottom: 1px solid #d8d8d8;
+    }
+    .main_images{
+        background-color:#000000;
+        float:left;
+        width:90%;
+        margin:0;
+        padding:0;
+    }
+    .main_img{
+        display:none; 
+        position:absolute;
+    }
+    .main_img img{
+        width:100%;
+        height:auto;
+        padding:0;
+        border:0;
+        margin:0;
+    }
+    .active_img{
+        position:relative;
+        display:block; 
+        padding:0;
+        margin-bottom:-4px;  
+    }
+    .arrow_left, .arrow_right{
+        margin-top:13%;
+        width:5%;
+        float:left;
+        font-size:190%;
+        color:#46A0D5;
+        cursor:pointer;
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        -ms-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        transition: all 0.4s; 
+    }
+    .arrow_left:hover{
+        color:#B90B25;
+    }
+    .arrow_right:hover{
+        color:#B90B25;
+    }

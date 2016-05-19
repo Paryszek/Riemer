@@ -1,0 +1,22 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule centrum-medyczne-riemer index.php
+RewriteRule co-nowego-slychac nowosci.php
+RewriteRule transport-pacjenta-samolotem trans-plane.php
+RewriteRule medyczna-asysta-lotnicza trans-asist.php
+RewriteRule transport-pacjenta-pojazdem trans-car.php
+RewriteRule szkolenia-kursy-pierwsza-pomoc szkolenia.php
+RewriteRule obstawy-imprez-masowych obstawy.php
+RewriteRule centrum-medyczne-galeria galeria.php
+RewriteRule czym-jest-centrum-riemer onas.php
+RewriteRule skontaktuj-sie-z-nami kontakt.php
+RewriteRule sprzet-karetki-samoloty sprzet.php
+RewriteRule alter-art-referencje referencje1.php
+RewriteRule europ-assistance-referencje referencje2.php
+RewriteRule legia-warszawa-referencje referencje3.php
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>Błąd 401 / Error 401</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <style type="text/css">
+td {font-family:Tahoma; font-size:8pt; color:#2e2e2e}
+body { font-family:Tahoma; font-size:8pt; color:#000000; margin: 0 0 0 0; background-image: url('http://www.mserwis.pl/gfx/errp_tlo.gif'); }
+#glowny{margin-right: auto; margin-left: auto; width: 970px;}
+#blad{ float: left; background-image: url('http://www.mserwis.pl/gfx/errp_blad.gif'); width:545px; height:342px; margin-top:108px;}
+#error{ font-size:16px; font-family:Georgia; color:#000000; margin-left:50px; margin-top:150px; position:absolute; }
+#strona{font-size:160px; font-family:Georgia; color:#E10000; margin-left:190px; position:absolute;  margin-top:10px;}
+#page{font-size:22px; font-family:Georgia; color:#2518C9; margin-left:50px; position:absolute;  margin-top:230px; line-height: 1.5}
+#logo {float: left; margin-top:260px; margin-left: 60px; text-align: center; line-height: 2}
+A:link		{ color: #0067c7; text-decoration: none;  }
+A:visited	{ color: #0067c7; text-decoration: none; }
+A:active	{ color: #0067c7; text-decoration: none;  }
+A:hover		{ color: #D20000; text-decoration: underline; }
+	</style>	
+ </head>
+ <body>
+<div id="glowny"><div id="blad">
+   <div id="error"><b>Błąd / Error</b></div>
+          <div id="strona">401</div>
+             <div id="page">Brak uprawnień.<br />Not authorized.
+</div>
+</div>
+
+<div id="logo">
+<a href="http://www.mserwis.pl"><img src="http://www.mserwis.pl/gfx/errp_logo.gif" width="255" height="41" border="0" alt="MSERWIS.pl" /></a>
+<br />
+<a href="http://www.domeny.tv">domeny</a>- <a href="http://wwww.mserwis.pl">hosting</a> - <a href="http://www.mserwis.pl/certyfikaty-ssl">certyfikaty SSL</a>
+</div>
+
+
+</div>
+
+
+ </body>
+</html>

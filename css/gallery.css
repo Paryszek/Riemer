@@ -1,0 +1,108 @@
+@media all and (max-width: 960px) {
+    #content{  
+        width:960px; /*978 przy padding 10px */
+        height:auto;
+        padding:0;
+        margin-right:auto;
+        margin-left:auto;
+        margin-top:20px;
+        margin-bottom:0px;
+        text-align:justify;
+        font-size:16px;
+        color:#333333; 
+        z-index:-100;
+    }
+}
+.slider{
+    width:960px;
+    min-height:550px;
+    height:auto;
+    padding-top:20px;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:auto;
+}
+.prev, .next{
+    float:left;
+    width:80px;
+    height:52px;
+    cursor:pointer;
+    margin-bottom:10px;
+    box-sizing:border-box;
+    color:#333333;
+    font-size:15px;
+    padding-left:30px;
+    padding-top:19px;
+    border-radius:5px 5px 5px 5px;
+    box-shadow:0px 0px 2px #000000;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.prev:hover, .next:hover{
+    background-color:#ffffff;
+    color:#B90B25;
+}
+
+.under-slide{
+    margin-left:auto;
+    margin-right:auto;
+    display:none;
+}
+.under-slide img{
+    position:absolute;
+    width:100%;
+    height:auto;
+}
+.aktualny{
+    display:block;   
+}
+.content-slide{
+    position:relative;
+    width:800px;   
+}
+.slider-icons{
+    width:800px;
+    float:left;
+    height:32px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+    /*background-color:#009fff;*/
+    border-radius:15px;
+}
+.under-slider-icons{
+    height:30px;
+    width:65px;
+    margin-left:5px;
+    margin-right:5px;
+    border:2px solid #ffffff;
+    float:left;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.under-slider-icons:first-child{
+    margin-left:10px;
+    margin-right:5px;
+}
+.under-slider-icons:hover{
+    cursor:pointer;
+    border:2px solid #cc0000;
+}
+.iaktualny{
+    box-shadow: 1px 1px 5px #000000;
+    border:2px solid #cc0000;
+}
+
+.under-slider-icons img{
+    height:auto;
+    width:66px;
+    height:30px;
+}
