@@ -63,7 +63,8 @@
             </div>
             <div style="clear:both;"></div>
             <div class="map-toggle">Gdzie nas znaleźć?</div>
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2007.779973077085!2d20.626403772295895!3d52.10625706735471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471948bf1f925d35%3A0xebf8409b20ff9c97!2sKierla%C5%84czyk%C3%B3w+21%2C+Grodzisk+Mazowiecki!5e0!3m2!1spl!2spl!4v1443710055345" width="960" height="0" frameborder="0" allowfullscreen></iframe>
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5288.99608729717!2d20.928573749670125!3d52.263650381558385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471eca4d25f44d53%3A0x68d2552c5eabc0ec!2zUG93c3RhxYRjw7N3IMWabMSFc2tpY2ggMTI4LCAwMS0zODEgV2Fyc3phd2E!5e0!3m2!1spl!2spl!4v1464169891111" width="960" height="0" frameborder="0" style="border:0" allowfullscreen></iframe>
+
             
 		</div>
         <?php require_once 'include/footer.php'; ?>
