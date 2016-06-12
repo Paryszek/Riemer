@@ -16,19 +16,19 @@
 			<div class="title">
 				<i class="icon-newspaper"></i> Nowości
 			</div>
-            <?php 
-                if($flaga != 0)
+            <?php
+                if($successConnect != 0)
                 {
-
-                    for($i = $kolumny->num_rows;$i >= 1;$i--){
-                        $rezultat = $polaczenie->query("SELECT * FROM news WHERE id='$i'");
-                        $dane = $rezultat->fetch_assoc();
+                    for($i = $columns->num_rows;$i >= 1;$i--){
+                        $resultNews = $connect->query("SELECT * FROM news WHERE id='$i'");
+                        $resultComment = $connect->query("SELECT * FROM comments WHERE id_komentarz='$i'");
+                        $takeNews = $resultNews->fetch_assoc();
                            if($i == 1){
                             echo '<div class="artykuly">
-                                    <div class="naglowek">'.$dane['tytul'].'</div>
-                                    <div class="data">'.$dane['data'].'</div>
+                                    <div class="naglowek">'.$takeNews['tytul'].'</div>
+                                    <div class="data">'.$takeNews['data'].'</div>
                                     <div style="clear:both;"></div>
-                                    <p class="opis">'.$dane['tekst'].'</p>
+                                    <p class="opis">'.$takeNews['tekst'].'</p>
                                         <form class="komentarz aktualny_p" method="POST" action="nowosci.php">
                                             <input type="text" style="display:none;" name="id" value="'.$i.'" />
                                             <textarea name="tekst" class="pisz" rows="2" placeholder="Co Ci chodzi po głowie?"></textarea><i class="icon-left-open"></i>
@@ -40,21 +40,20 @@
                                             <div style="clear:both;"></div>
                                         </form>
                             ';
-                            if($flaga2 == 1){ echo '<div class="error">Wysłanie komentarza nie powiodło się!</div>'; }
+                            if($errorComment == 1){ echo '<div class="error">Wysłanie komentarza nie powiodło się!</div>'; }
                              echo '<div class="komm aktualny_k">
-                             <div style="width:100%; margin-top:10px; margin-bottom:10px; text-align:center;">  
+                             <div style="width:100%; margin-top:10px; margin-bottom:10px; text-align:center;">
                                     <a class="btn"> Rozwiń komentarze </a>
                              </div>
                              <div class="comm">';
-                            $rezultat2 = $polaczenie->query("SELECT * FROM comments WHERE id_komentarz='$i'");
-                            for($k = 0;$k < $rezultat2->num_rows;$k++){
-                                    $dane2 = $rezultat2->fetch_assoc();
-                                    echo '<p class="komentarze"><b>'.$dane2['data'].'
-                                            | '.$dane2['autor'].'</b>:
-                                            '.$dane2['tekst'].'
+                            for($n = 0;$n < $resultComment->num_rows;$n++){
+                                    $takeComment = $resultComment->fetch_assoc();
+                                    echo '<p class="komentarze"><b>'.$takeComment['data'].'
+                                            | '.$takeComment['autor'].'</b>:
+                                            '.$takeComment['tekst'].'
                                         </p>
                                     ';
-                                }  
+                                }
                             echo '
                                         </div>
                                     </div>
@@ -62,10 +61,10 @@
                             ';
                            }else{
                                 echo '<div class="artykuly">
-                                    <div class="naglowek">'.$dane['tytul'].'</div>
-                                    <div class="data">'.$dane['data'].'</div>
+                                    <div class="naglowek">'.$takeNews['tytul'].'</div>
+                                    <div class="data">'.$takeNews['data'].'</div>
                                     <div style="clear:both;"></div>
-                                    <p class="opis">'.$dane['tekst'].'</p>
+                                    <p class="opis">'.$takeNews['tekst'].'</p>
                                         <form class="komentarz" method="POST" action="nowosci.php">
                                             <input type="text" style="display:none;" name="id" value="'.$i.'" />
                                             <textarea name="tekst" class="pisz" rows="2" placeholder="Co Ci chodzi po głowie?"></textarea><i class="icon-left-open"></i>
@@ -77,35 +76,34 @@
                                             <div style="clear:both;"></div>
                                         </form>
                             ';
-                               if($flaga2 == $i){ echo '<div class="error">Wysłanie komentarza nie powiodło się!</div>'; }
+                               if($errorComment == $i){ echo '<div class="error">Wysłanie komentarza nie powiodło się!</div>'; }
                              echo '<div class="komm aktualny_k">
-                             <div style="width:100%; margin-top:10px; margin-bottom:10px; text-align:center;">  
+                             <div style="width:100%; margin-top:10px; margin-bottom:10px; text-align:center;">
                                     <a class="btn"> Rozwiń komentarze </a>
                              </div>
                              <div class="comm">';
-                            $rezultat2 = $polaczenie->query("SELECT * FROM comments WHERE id_komentarz='$i'");
-                                for($k = 0;$k < $rezultat2->num_rows;$k++){
-                                    $dane2 = $rezultat2->fetch_assoc();
-                                    echo '<p class="komentarze"><b>'.$dane2['data'].'
-                                            | '.$dane2['autor'].'</b>:
-                                            '.$dane2['tekst'].'
+                                for($n = 0;$n < $resultComment->num_rows;$n++){
+                                    $takeComment = $resultComment->fetch_assoc();
+                                    echo '<p class="komentarze"><b>'.$takeComment['data'].'
+                                            | '.$takeComment['autor'].'</b>:
+                                            '.$takeComment['tekst'].'
                                         </p>
                                     ';
-                                }  
+                                }
                             echo '
                                         </div>
                                     </div>
                                 </div>
                             ';
-                            
+
                            }
                     }
-                    $polaczenie->close();
-                }  
+                    $connect->close();
+                }
 ?>
 		</div>
 		<?php require_once 'include/footer.php'; ?>
-	</div>	
+	</div>
 <script type="text/javascript" src="script/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="script/main.js"></script>
 <script type="text/javascript" src="script/news.js"></script>

@@ -1,6 +1,6 @@
     <div id="header-main">
-				
-                    <div class="picture">
+
+            <div class="picture">
 						<a href="centrum-medyczne-riemer">
 							<img src="obrazy/logo.png" />
 						</a>
@@ -9,7 +9,7 @@
                         <a class="yt-top" href="https://www.youtube.com/channel/UCDUJUOviojf4vw22q7m-K8w" target="_blank"></a>
                         <a class="fb-top" href="https://www.facebook.com/centrumriemer/" target="_blank"></a>
                     </div>
-				
+
     </div>
     <div id="header-menu">
 					<ol>
@@ -83,7 +83,7 @@
                                         </a>
                                     </li>
 								</ul>
-						  </li> 
+						  </li>
                             <li>
                                 <a href="czym-jest-centrum-riemer">
 									O nas
