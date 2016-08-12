@@ -1,23 +1,13 @@
-.kontakt-formularz{
-    width:500px;
-}
-.formularz-kontaktowy input{
-       
-}
-.formularz-kontaktowy textarea{
-    
-}
-    .kontakt-formularz{
+    .contactForm{
         float:left;
         width:480px;
     }
-
-    .kontakt-formularz form{
+    .contactForm form{
         margin-left:auto;
         margin-right:auto;
         width:480px;
     }
-    .kontakt-info{
+    .contactInfo{
         float:left;
         width:480px;
         padding-left:40px;
@@ -27,81 +17,81 @@
         box-sizing:border-box;
     }
 @media all and (max-width: 960px) {
-    .kontakt-formularz{
+    .contactForm{
         float:none;
         width:100%;
     }
-    .kontakt-formularz form{
+    .contactForm form{
         padding-left:17%;
         padding-right:17%;
         width:66%;
     }
-    .kontakt-info{
+    .contactInfo{
         float:none;
         padding:0;
         width:100%;
         text-align:center;
     }
-    .phone{
+    .currentPhoneNumber{
         width:100%;
         text-align:center;
     }
-    .phone > li{
+    .currentPhoneNumber > li{
         display:inline-block;
         float:none;
     }
 }
-.przycisk1,.przycisk2,.przycisk3, .przycisk4{
+.contactInputOne,.contactInputTwo,.contactInputThree, .contactInputFour{
     width:405px;
     border: 1px solid #cc0000;
     color:#000000;
     font-size:15px;
-    border-radius: 0px;   
+    border-radius: 0px;
     padding:5px;
     margin:5px;
     float:left;
 }
-.przycisk1,.przycisk2{
+.contactInputOne,.contactInputTwo{
     width:194px;
 }
-.przycisk1{
-    margin-right:2.5px;   
+.contactInputOne{
+    margin-right:2.5px;
 }
-.przycisk2{
-    margin-left:2.5px;   
+.contactInputTwo{
+    margin-left:2.5px;
 }
-.przycisk5,.przycisk6{
+.contactInputFive,.contactInputSix{
     margin:5px;
     font-size:14px;
 }
-.licznik1,.licznik2,.licznik3,.licznik4{
+.contactCounterOne,.contactCounterTwo,.contactCounterThree,.contactCounterFour{
     float:left;
     color:#cc0000;
     font-weight: 900;
     margin-top:25px;
 }
-.licznik1{
+.contactCounterOne{
     margin-right:2.5px;
 }
-.licznik2{
-    margin-left:2.5px;   
+.contactCounterTwo{
+    margin-left:2.5px;
 }
-.licznik4{
-    margin-top:50px;   
+.contactCounterFour{
+    margin-top:50px;
 }
 @media all and (max-width: 960px) {
-    .przycisk1,.przycisk2,.przycisk3,przycisk4{
+    .contactInputOne,.contactInputTwo,.contactInputThree,contactInputFour{
         width:90%;
         padding-left:5px;
         padding-right:5px;
     }
-    .przycisk1, .przycisk2{
+    .contactInputOne, .contactInputTwo{
         width:40%;
         padding-left:5px;
         padding-right:5px;
     }
 }
-.map-toggle{
+.mapToggle{
     cursor:pointer;
     margin-top:30px;
     margin-bottom:0;
@@ -118,7 +108,7 @@
     box-sizing:border-box;
 }
 @media all and (max-width: 960px) {
-    .map-toggle{
+    .mapToggle{
         width:100%;
         padding:0;
         padding-top:20px;
@@ -130,8 +120,8 @@
 .map{
     border:0;
     margin-top:0px;
-    
+
 }
-.button-click{
+.buttonClick{
     background-color:#005eff;
 }

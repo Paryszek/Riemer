@@ -1,118 +1,116 @@
 $(document).ready(function() {
         var main = function() {
-            var przy1 = $('form').children('.przycisk1');
-            var przy2 = $('form').children('.przycisk2');
-            var przy3 = $('form').children('.przycisk3');
-            var przy4 = $('form').children('.przycisk4');
-            var flaga1 = 0;
-            var flaga2 = 0;
-            var flaga3 = 0;
-            var flaga4 = 0;
-            var on = true;
-            $('.map-toggle').click(function(){
-                if(on){
-                    $(this).addClass('button-click');
+            var inputOne = $('form').children('.contactInputOne');
+            var inputTwo = $('form').children('.contactInputTwo');
+            var inputThree = $('form').children('.contactInputThree');
+            var inputFour = $('form').children('.contactInputFour');
+            var inputValidationOne = 0;
+            var inputValidationTwo = 0;
+            var inputValidationThree = 0;
+            var inputValidationFour = 0;
+            var isDiscovered = false;
+            $('.mapToggle').click(function(){
+                if(!isDiscovered){
+                    $(this).addClass('buttonClick');
                     $('.map').animate({
                         height: "450px",
                     },1000);
                     $('html,body').animate({
                         scrollTop: $('.map').offset().top}, 'slow');
-                    on = false;
+                    isDiscovered = true;
                 }else{
-                    $(this).removeClass('button-click');
+                    $(this).removeClass('buttonClick');
                     $('.map').animate({
                         height: "0px",
                     },1000);
-                    on = true;
-                
+                    isDiscovered = false;
                 }
             });
-             $('form').children('.przycisk5').attr("disabled", "disabled");
-                $('form').children('.przycisk6').click(function() {
-                    przy1.val('');
-                    przy2.val('');
-                    przy3.val('');
-                    przy4.val('');
-                    flaga1 = 0;
-                    flaga2 = 0;
-                    flaga3 = 0;
-                    flaga4 = 0;
-                    $('form').children('.licznik1').text(40);
-                    $('form').children('.licznik2').text(40);
-                    $('form').children('.licznik3').text(40);
-                    $('form').children('.licznik4').text(200);
-                    $('form').children('.przycisk5').attr("disabled", "disabled");
+             $('form').children('.contactInputFive').attr("disabled", "disabled");
+                $('form').children('.contactInputSix').click(function() {
+                    inputOne.val('');
+                    inputTwo.val('');
+                    inputThree.val('');
+                    inputFour.val('');
+                    inputValidationOne = 0;
+                    inputValidationTwo = 0;
+                    inputValidationThree = 0;
+                    inputValidationFour = 0;
+                    $('form').children('.contactCounterOne').text(40);
+                    $('form').children('.contactCounterTwo').text(40);
+                    $('form').children('.contactCounterThree').text(40);
+                    $('form').children('.contactCounterFour').text(200);
+                    $('form').children('.contactInputFive').attr("disabled", "disabled");
                 });
-                przy1.keyup(function(){
+                inputOne.keyup(function(){
                     if($(this).val() != ''){
-                        flaga1 = 1;
+                        inputValidationOne = 1;
                     }else{
-                        flaga1 = 0;
+                        inputValidationOne = 0;
                     }
-                    var licznik = 40 - $(this).val().length;
-                    $('form').children('.licznik1').text(licznik);
-                    
+                    var inputStringCounter = 40 - $(this).val().length;
+                    $('form').children('.contactCounterOne').text(inputStringCounter);
+
                     if($(this).val().length > 40)
                     {
-                        flaga1 = 0;
-                        $('form').children('.przycisk5').attr("disabled", "disabled");
+                        inputValidationOne = 0;
+                        $('form').children('.contactInputFive').attr("disabled", "disabled");
                     }
-                
+
                 });
-                przy2.keyup(function(){
+                inputTwo.keyup(function(){
                     if($(this).val() != ''){
-                        flaga2 = 1;
+                        inputValidationTwo = 1;
                     }else{
-                        flaga2 = 0;
+                        inputValidationTwo = 0;
                     }
-                    var licznik = 40 - $(this).val().length;
-                    $('form').children('.licznik2').text(licznik);
+                    var inputStringCounter = 40 - $(this).val().length;
+                    $('form').children('.contactCounterTwo').text(inputStringCounter);
                     if($(this).val().length > 40)
                     {
-                        flaga2 = 0;
-                        $('form').children('.przycisk5').attr("disabled", "disabled");
+                        inputValidationTwo = 0;
+                        $('form').children('.contactInputFive').attr("disabled", "disabled");
                     }
-                
+
                 });
-                przy3.keyup(function(){
+                inputThree.keyup(function(){
                     if($(this).val() != ''){
-                        flaga3 = 1;
+                        inputValidationThree = 1;
                     }else{
-                        flaga3 = 0;
+                        inputValidationThree = 0;
                     }
-                    var licznik = 40 - $(this).val().length;
-                    $('form').children('.licznik3').text(licznik);
+                    var inputStringCounter = 40 - $(this).val().length;
+                    $('form').children('.contactCounterThree').text(inputStringCounter);
                     if($(this).val().length > 40)
                     {
-                        flaga3 = 0;
-                        $('form').children('.przycisk5').attr("disabled", "disabled");
+                        inputValidationThree = 0;
+                        $('form').children('.contactInputFive').attr("disabled", "disabled");
                     }
-                
+
                 });
-                przy4.keyup(function(){
+                inputFour.keyup(function(){
                     if($(this).val() != ''){
-                        flaga4 = 1;
+                        inputValidationFour = 1;
                     }else{
-                        flaga4 = 0;
+                        inputValidationFour = 0;
                     }
-                    var licznik = 200 - $(this).val().length;
-                    $('form').children('.licznik4').text(licznik);
+                    var inputStringCounter = 200 - $(this).val().length;
+                    $('form').children('.contactCounterFour').text(inputStringCounter);
                     if($(this).val().length > 200)
                     {
-                        flaga4 = 0;
-                        $('form').children('.przycisk5').attr("disabled", "disabled");
+                        inputValidationFour = 0;
+                        $('form').children('.contactInputFive').attr("disabled", "disabled");
                     }
-                
+
                 });
-                
+
                 $('form').keyup(function(){
-                    if(flaga1 == 1 && flaga2 == 1 && flaga3 == 1 && flaga4 == 1){
-                        $('form').children('.przycisk5').removeAttr("disabled");
+                    if(inputValidationOne == 1 && inputValidationTwo == 1 && inputValidationThree == 1 && inputValidationFour == 1){
+                        $('form').children('.contactInputFive').removeAttr("disabled");
                     }else{
-                        $('form').children('.przycisk5').attr("disabled", "disabled");
+                        $('form').children('.contactInputFive').attr("disabled", "disabled");
                     }
                 });
             };
         main();
 	});
-    
