@@ -55,6 +55,6 @@
 
        }
         $sentSuccess = true;
-        messageHeader("Refresh: 5; url=skontaktuj-sie-z-nami");
+        Header("Refresh: 5; url=skontaktuj-sie-z-nami");
     }
 ?>
