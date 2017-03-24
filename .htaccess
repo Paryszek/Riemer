@@ -19,4 +19,6 @@ RewriteRule sprzet-karetki-samoloty sprzet.php
 RewriteRule alter-art-referencje referencje1.php
 RewriteRule europ-assistance-referencje referencje2.php
 RewriteRule legia-warszawa-referencje referencje3.php
+RewriteRule outsourcing-personelu-medycznego outsourcing.php
+RewriteRule pracuj-z-nami praca.php
 

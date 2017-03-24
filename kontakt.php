@@ -23,10 +23,12 @@
                     <input class="contactInputThree" type="text" name="kontakt" placeholder="Proszę podać adres email" value="" /><div class="contactCounterThree">40</div><br /><div style="clear:both;"></div>
                     <textarea class="contactInputFour" name="wiadomosc" rows="3" placeholder="Proszę podać treść wiadomości"></textarea><div class="contactCounterFour">200</div><br /><div style="clear:both;"></div>
                      <select name="option" style="margin-left:5px;">
-                      <option value="1">Sprawy pozostałe</option>
-                      <option value="2">Sprawy związane z dokumentacją medyczną</option>
-                      <option value="3">Sprawy administracyjne</option>
-                      <option value="4">Sprawy związane ze stroną</option>
+                      <option value="1">Oferta transportu</option>
+                      <option value="2">Oferta zabezpieczenia</option>
+                      <option value="3">Oferta szkolenia</option>
+                      <option value="4">Oferta pracy</option>
+                      <option value="5">Kontakt z administratorem strony</option>
+                      <option value="6">Inne</option>
                     </select>
                     <input class="contactInputFive" type="submit" value="Zatwierdź"/><input class="contactInputSix" type="button" value="Reset" /><?php
               if($sentSuccess == true) {

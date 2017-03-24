@@ -23,10 +23,11 @@
                 $sendToFourth = "biuro@riemer.gr";
                 $sendToFifth = "medyczny@riemer.gr";
                 $sendToSixth = "kontakt@riemer.gr";
+                $sendToSeven = "praca@riemer.gr";
+                $sentToEight = "magda.lenartowicz@riemer.gr";
         $option = $_POST['option'];
        switch($option){
            case 1:{
-               sendMail($sendToFirst,$messageTopic,$messageDescription,$messageHeader);
                sendMail($sendToSecond,$messageTopic,$messageDescription,$messageHeader);
                sendMail($sendToThird,$messageTopic,$messageDescription,$messageHeader);
                sendMail($sendToFourth,$messageTopic,$messageDescription,$messageHeader);
@@ -34,7 +35,6 @@
                sendMail($sendToSixth,$messageTopic,$messageDescription,$messageHeader);
             }break;
            case 2:{
-               sendMail($sendToFirst,$messageTopic,$messageDescription,$messageHeader);
                sendMail($sendToSecond,$messageTopic,$messageDescription,$messageHeader);
                sendMail($sendToThird,$messageTopic,$messageDescription,$messageHeader);
                sendMail($sendToFourth,$messageTopic,$messageDescription,$messageHeader);
@@ -42,7 +42,6 @@
                sendMail($sendToSixth,$messageTopic,$messageDescription,$messageHeader);
            }break;
             case 3:{
-               sendMail($sendToFirst,$messageTopic,$messageDescription,$messageHeader);
                sendMail($sendToSecond,$messageTopic,$messageDescription,$messageHeader);
                sendMail($sendToThird,$messageTopic,$messageDescription,$messageHeader);
                sendMail($sendToFourth,$messageTopic,$messageDescription,$messageHeader);
@@ -50,7 +49,21 @@
                sendMail($sendToSixth,$messageTopic,$messageDescription,$messageHeader);
            }break;
             case 4:{
+               sendMail($sendToSeven,$messageTopic,$messageDescription,$messageHeader);
+               sendMail($sentToEight,$messageTopic,$messageDescription,$messageHeader);
+           }break;
+            case 5:{
                sendMail($sendToFirst,$messageTopic,$messageDescription,$messageHeader);
+           }break;
+           case 6:{
+               sendMail($sendToSecond,$messageTopic,$messageDescription,$messageHeader);
+               sendMail($sendToThird,$messageTopic,$messageDescription,$messageHeader);
+               sendMail($sendToFourth,$messageTopic,$messageDescription,$messageHeader);
+               sendMail($sendToFifth,$messageTopic,$messageDescription,$messageHeader);
+               sendMail($sendToSixth,$messageTopic,$messageDescription,$messageHeader);
+               sendMail($sendToFirst,$messageTopic,$messageDescription,$messageHeader);
+               sendMail($sendToSeven,$messageTopic,$messageDescription,$messageHeader);
+               sendMail($sentToEight,$messageTopic,$messageDescription,$messageHeader);
            }break;
 
        }
