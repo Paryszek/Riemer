@@ -12,7 +12,7 @@ a{
 }
 .logo{
     color:#ffffff;
-    text-shadow: 3px 3px 4px #000000;   
+    text-shadow: 3px 3px 4px #000000;
 }
 #header-main{
     z-index:100;
@@ -56,7 +56,7 @@ a{
     transition: all 0.5s;
 }
 .picture:hover{
-    opacity:0.5;   
+    opacity:0.5;
 }
 .picture img{
     width:250px;
@@ -96,7 +96,7 @@ a{
     width:22px;
     height:22px;
     margin-right:2.5px;
-    background-image: url(../obrazy/yt.png); 
+    background-image: url(../obrazy/yt.png);
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -ms-transition: all 0.4s;
@@ -107,7 +107,7 @@ a{
     width:22px;
     height:22px;
     margin-left:2.5px;
-    background-image: url(../obrazy/fb.png);  
+    background-image: url(../obrazy/fb.png);
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -ms-transition: all 0.4s;
@@ -133,9 +133,9 @@ a{
 	margin-bottom:0px;
 	text-align:justify;
 	font-size:16px;
-    color:#333333; 
+    color:#333333;
     z-index:-100;
-    
+
 }
 #content > img{
         width:100%;
@@ -143,7 +143,7 @@ a{
         border:solid 5px #ffffff;
     }
 @media all and (max-width: 960px) {
-    #content{  
+    #content{
         width:80%;
         padding:0;
         margin:0;
@@ -153,9 +153,9 @@ a{
     iframe{
         width:100%;
         height:auto;
-        
+
     }
-    
+
 }
 #between{
 	width:100%;
@@ -191,7 +191,7 @@ a{
 	width:170px;
 	height:155px;
 	float:left;
-    
+
 }
 .yt:hover > a{
     color:#d94348;
@@ -231,7 +231,7 @@ a{
     transition: all 0.4s;
 }
 #header-menu > ol{
-    min-width: 930px;
+    min-width: 1039px;
 	 list-style-type:none;
     display: inline-block;
 	 line-height:200%;
@@ -274,7 +274,7 @@ a{
         display:none;
     }
         #header-menu > ol > li:hover > ul
-        {   
+        {
             display:block;
         }
     #header-menu > ol > li > ul > li{
@@ -325,7 +325,7 @@ a{
     margin-left:10px;
     margin-right:10px;
     float:left;
-    
+
 }
 #footer-menu > ol > li > a:hover{
     color:#B90B25;
