@@ -28,19 +28,29 @@
                         </li>
 				        <li>
                               <a href="transport-pacjenta-samolotem">
-                                  Oferta
+                Oferta
                             </a>
 						  </li>
+							<li>
+								<a href="europ-assistance-referencje">
+									Referencje
+												</a>
+							</li>
                             <li>
                                 <a href="centrum-medyczne-galeria">
 									Galeria
                                 </a>
-                            </li>   
+                            </li>
                             <li>
                                 <a href="czym-jest-centrum-riemer">
 									O nas
                                 </a>
                             </li>
+														<li>
+										            <a href="pracuj-z-nami">
+										                Praca
+										            </a>
+										        </li>
                             <li>
                                 <a href="skontaktuj-sie-z-nami">
 									Kontakt
