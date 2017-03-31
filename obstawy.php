@@ -32,8 +32,8 @@ Zabezpieczenie każdej imprezy masowej jest indywidualnie wyceniane w zależnoś
             </div>
             <div style="text-align:center;">
                  <a class="btn" href="skontaktuj-sie-z-nami">Skontaktuj się z nami</a>
-                 <a class="btn" href="co-nowego-slychac">Sprawdź co u nas słychać</a>
                  <a class="btn" href="sprzet-karetki-samoloty">Zobacz nasz sprzęt</a>
+                 <a class="btn" href="outsourcing-personelu-medycznego">Sprawdź kolejną oferte</a>
             </div>
 		</div>
 		<?php require_once 'include/footer.php'; ?>

@@ -25,6 +25,7 @@
  <a class="btn" href="skontaktuj-sie-z-nami">Skontaktuj się z nami</a>
  <a class="btn" href="transport-pacjenta-samolotem">Sprawdź naszą ofertę</a>
  <a class="btn" href="sprzet-karetki-samoloty">Zobacz nasz sprzęt</a>
+ <a class="btn" href="europ-assistance-referencje">Przejdź dalej</a>
 </div>
 </div>
 

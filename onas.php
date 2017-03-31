@@ -17,7 +17,7 @@ Chcielibyśmy przedstawić ofertę kompleksowego zabezpieczania imprez masowych 
 Dysponujemy nowoczesnymi ambulansami, wyposażonymi zgodnie z wymogami
 Ustawy o Państwowym Ratownictwie Medycznym oraz europejską normą w PN-EN 1867.
 Naszym atutem jest kadra medyczna, którą stanowi wyselekcjonowany personel, pozyskany w wyniku restrykcyjnej rekrutacji, weryfikującej wiedzę teoretyczną i umiejętności praktyczne kandydatów. Jako firma medyczna kładziemy ogromny nacisk na szkolenie kadry czego efektem są jej ogromne osiągnięcia, zarówno w kraju 
-jak i na arenie międzynarowej. 
+jak i na arenie międzynarowej. Rozpoczeliśmy także działalność świadczącą usługi w zakresie outsourcingu personelu medycznego wysokiego i średniego szczebla dając tym samym wsparcie dyrektorom placówek medycznych w zapewnieniu pełnej obsady stanowisk.
 Nadrzędnym, przyjętym przez nas celem działalności jest wysoka jakość świadczonych usług.<br /><br/>
 <div style="text-align:center;">
  <a class="btn" href="skontaktuj-sie-z-nami">Skontaktuj się z nami</a>

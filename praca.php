@@ -26,11 +26,13 @@
 					<p style="font-size:135%; text-align:justify;">
 						Warunkiem współpracy z nami jest posiadanie aktualnego indywidualnego ubezpieczenia OC.
 					</p>
-					<div style="text-align:center;">
+					<div style="text-align:center; margin-bottom: 15px; ">
 							 <a class="btn" href="skontaktuj-sie-z-nami">Skontaktuj się z nami</a>
 							 <a class="btn" href="co-nowego-slychac">Sprawdź co u nas słychać</a>
 							 <a class="btn" href="sprzet-karetki-samoloty">Zobacz nasz sprzęt</a>
 					</div>
+					<img src="obrazy/praca1.jpg" style="float:left; width:460px; height:200px; margin:5px;"/>
+            		<img src="obrazy/praca2.jpg" style="float:left; width:460px; height:200px; margin:5px;"/>
 		</div>
 		<?php require_once 'include/footer.php'; ?>
 </div>

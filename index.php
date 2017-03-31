@@ -10,7 +10,7 @@
 		<?php require_once 'include/header.php'; ?>
         <div class="about">
             <h1>Centrum Medyczne Riemer</h1>
-            <p>Centrum Medyczne Riemer - Świadczymy usługi w ramach systemu Państwowego Ratownictwa Medycznego jak również w zakresie zabezpieczenia wydarzeń o statusie imprezy masowej, koncerty, wydarzenia sportowe oraz kulturalne. Wykonujemy usługi w zakresie przewozów medycznych na terytorium całej Europy transportem kołowym oraz lotniczym. Prowadzimy również szkolenia z zakresu pierwszej pomocy medycznej, KPP(kwalifikowanej pierwszej pomocy), pokazy oraz instruktaże z zakresu medycyny ratunkowej dla lekarzy i personelu medycznego średniego.</p>
+            <p>Centrum Medyczne Riemer - Świadczymy usługi w ramach systemu Państwowego Ratownictwa Medycznego jak również w zakresie zabezpieczenia wydarzeń o statusie imprezy masowej, koncerty, wydarzenia sportowe oraz kulturalne. Wykonujemy usługi w zakresie przewozów medycznych na terytorium całej Europy transportem kołowym oraz lotniczym. Prowadzimy również szkolenia z zakresu pierwszej pomocy medycznej, KPP(kwalifikowanej pierwszej pomocy), pokazy oraz instruktaże z zakresu medycyny ratunkowej dla lekarzy i personelu medycznego średniego. Świadczymy także usługi w zakresie outsourcingu personelu medycznego - lekarzy różnych specjalizacji, pielęgniarek na oddziały zachowawcze oraz wysokospecjalistyczne, a także rehabilitantów specjalizujących się w udzielaniu świadczeń zdrowotnych zarówno dla osób dorosłych jak i dzieci.</p>
             <a class="btnOne" href="czym-jest-centrum-riemer">Dowiedz się więcej</a>
         </div>
         <div class="sectionPresentation">
