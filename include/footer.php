@@ -31,16 +31,16 @@
                 Oferta
                             </a>
 						  </li>
-							<li>
-								<a href="europ-assistance-referencje">
-									Referencje
-												</a>
-							</li>
                             <li>
                                 <a href="centrum-medyczne-galeria">
 									Galeria
                                 </a>
                             </li>
+														<li>
+															<a href="europ-assistance-referencje">
+																Referencje
+																			</a>
+														</li>
                             <li>
                                 <a href="czym-jest-centrum-riemer">
 									O nas

@@ -28,7 +28,7 @@
                                     <div class="naglowek">'.$takeNews['tytul'].'</div>
                                     <div class="data">'.$takeNews['data'].'</div>
                                     <div style="clear:both;"></div>
-                                    <p class="opis">'.$takeNews['tekst'].'</p>
+                                    <div class="opis">'.$takeNews['tekst'].'</div>
                                         <form class="komentarz aktualny_p" method="POST" action="nowosci.php">
                                             <input type="text" style="display:none;" name="id" value="'.$i.'" />
                                             <textarea name="tekst" class="pisz" rows="2" placeholder="Co Ci chodzi po głowie?"></textarea><i class="icon-left-open"></i>
@@ -64,7 +64,7 @@
                                     <div class="naglowek">'.$takeNews['tytul'].'</div>
                                     <div class="data">'.$takeNews['data'].'</div>
                                     <div style="clear:both;"></div>
-                                    <p class="opis">'.$takeNews['tekst'].'</p>
+                                    <div class="opis">'.$takeNews['tekst'].'</div>
                                         <form class="komentarz" method="POST" action="nowosci.php">
                                             <input type="text" style="display:none;" name="id" value="'.$i.'" />
                                             <textarea name="tekst" class="pisz" rows="2" placeholder="Co Ci chodzi po głowie?"></textarea><i class="icon-left-open"></i>
