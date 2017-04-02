@@ -4,6 +4,7 @@ $(document).ready(function() {
             var inputTwo = $('form').children('.contactInputTwo');
             var inputThree = $('form').children('.contactInputThree');
             var inputFour = $('form').children('.contactInputFour');
+            var TEXTBOX_MAX_CHARACTERS = 2000;
             var inputValidationOne = 0;
             var inputValidationTwo = 0;
             var inputValidationThree = 0;
@@ -39,7 +40,7 @@ $(document).ready(function() {
                     $('form').children('.contactCounterOne').text(40);
                     $('form').children('.contactCounterTwo').text(40);
                     $('form').children('.contactCounterThree').text(40);
-                    $('form').children('.contactCounterFour').text(200);
+                    $('form').children('.contactCounterFour').text(TEXTBOX_MAX_CHARACTERS);
                     $('form').children('.contactInputFive').attr("disabled", "disabled");
                 });
                 inputOne.keyup(function(){
@@ -94,9 +95,9 @@ $(document).ready(function() {
                     }else{
                         inputValidationFour = 0;
                     }
-                    var inputStringCounter = 200 - $(this).val().length;
+                    var inputStringCounter = TEXTBOX_MAX_CHARACTERS - $(this).val().length;
                     $('form').children('.contactCounterFour').text(inputStringCounter);
-                    if($(this).val().length > 200)
+                    if($(this).val().length > TEXTBOX_MAX_CHARACTERS)
                     {
                         inputValidationFour = 0;
                         $('form').children('.contactInputFive').attr("disabled", "disabled");

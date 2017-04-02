@@ -20,8 +20,8 @@
                 <form method="POST" action="skontaktuj-sie-z-nami">
                     <input class="contactInputOne" type="text" name="imie" placeholder="Proszę podać imię" value="" />
                     <input class="contactInputTwo" type="text" name="nazwisko" placeholder="Proszę podać nazwisko" value="" /><div class="contactCounterOne">40</div><div class="contactCounterTwo">40</div><br /><div style="clear:both;"></div>
-                    <input class="contactInputThree" type="text" name="kontakt" placeholder="Proszę podać adres email" value="" /><div class="contactCounterThree">40</div><br /><div style="clear:both;"></div>
-                    <textarea class="contactInputFour" name="wiadomosc" rows="3" placeholder="Proszę podać treść wiadomości"></textarea><div class="contactCounterFour">200</div><br /><div style="clear:both;"></div>
+                    <input class="contactInputThree" type="text" name="kontakt" placeholder="Proszę podać swój adres email" value="" /><div class="contactCounterThree">40</div><br /><div style="clear:both;"></div>
+                    <textarea class="contactInputFour" name="wiadomosc" rows="3" placeholder="Proszę podać treść wiadomości"></textarea><div class="contactCounterFour">2000</div><br /><div style="clear:both;"></div>
                      <select name="option" style="margin-left:5px;">
                       <option value="1">Oferta transportu</option>
                       <option value="2">Oferta zabezpieczenia</option>
