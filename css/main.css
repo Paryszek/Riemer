@@ -12,6 +12,7 @@ p{
     padding-bottom:30px;
     height:auto;
     width:100%;
+    background: white;
     color:#333333;
     text-align:center;
 }
@@ -122,12 +123,163 @@ p{
 .btnTwo:hover{
     color:#1ABB9C;
 }
+
+.covid-container {
+    background-image: url("../obrazy/covid-bg.jpeg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    padding: 30px 0;
+    color: #333333;
+    letter-spacing: 0.5px;
+}
+
+.covid {
+    font-size:100%;
+    width: 100%;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.covid-slider-right {    
+    height: 100%;
+    width: 50%;
+    display: block;
+    float: left;
+}
+.covid-slider-wrapper {
+    background-color: white;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.covid-slider-wrapper > .ism-slider {
+    width: 300px
+}
+
+.covid-desc {
+    font-size:100%;
+    width: 50%;
+    display: block;
+    float: left;
+}
+
+@media all and (max-width: 1084px) {
+    .covid {
+        max-width: initial;
+    }
+
+    .covid-container {
+        width: auto;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .covid-slider-right {
+        width: 100%;
+        float: none;
+    }
+
+    .covid-slider-wrapper {
+        padding: 10px 0;
+    }
+
+    .covid-desc {
+        width: 100%;
+        float: none;
+    }
+}
+
+.covid > h1 {
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:30px;
+    text-shadow:2px 2px 3px #000000;
+    color:#46A0D5;
+    font-weight:900;
+    letter-spacing: 2px;
+    font-size: 300%;
+}
+
+.covid > p {
+    font-size: 100%;
+}
+
+.covid > .covid-slider-right > p {
+    font-size: 100%;
+}
+
+.covid > .covid-slider-right > .covid-steps {
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+.covid > .covid-slider-right > .covid-steps > li {
+    padding-bottom: 10px;
+}
+
+.covid > .covid-slider-right > .covid-steps > li:last-child {
+    padding-bottom: 0px;
+}
+
+
+.covid > .covid-desc > p {
+    word-break: keep-all;
+    font-size: 100%;
+}
+
+.covid > .covid-desc > .covid-locations {
+    line-height: 1.5;
+}
+
+.covid > .covid-desc > .covid-steps {
+    line-height: 1.5;
+}
+
+.covid > p > a {
+    color: #333333;
+    font-weight: 700;
+}
+
+.covid > .covid-desc > p > a {
+    color: #333333;
+    font-weight: 700;
+}
+
+.covid > .covid-desc > a:hover {
+    color: black;
+}
+
+.covid > .covid-desc > .covid-steps > li > a {
+    color: #333333;
+    font-weight: 700;
+}
+
+.covid > .covid-desc > .covid-steps > li > a:hover {
+    color: black;
+}
+
+.covid > .btn-container {
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
 /*O nas*/
     .about{
         padding-top:30px;
         padding-bottom:30px;
         height:auto;
         width:100%;
+        max-width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
         color:#ffffff;
         text-align:center;
     }
@@ -140,11 +292,13 @@ p{
         letter-spacing: 2px;
         font-size:300%;
 
-}
-    .about > p{
-        padding-left:15%;
-        padding-right:15%;
-        /*text-indent:50px; */
+    }
+
+    @media all and (max-width: 1084px) {
+        .about > p{        
+            padding-left:15%;
+            padding-right:15%;
+        }
     }
  /*Newsy*/
   /*  .present{

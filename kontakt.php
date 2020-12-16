@@ -32,7 +32,7 @@
                     </select>
                     <input class="contactInputFive" type="submit" value="Zatwierdź"/><input class="contactInputSix" type="button" value="Reset" /><?php
               if($sentSuccess == true) {
-                  echo '<br /><font style="color:green;">Wiadomość została pomyślnie wysłana - za 5 sekund zostaniesz przekierowany</font>';
+                  echo '<br /><font style="color:green;">Wiadomość została pomyślnie wysłana</font>';
               }
                     ?>
                 </form>
