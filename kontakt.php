@@ -15,7 +15,8 @@
 			<div class="title">
 				<i class="icon-mail"></i> Kontakt
 			</div>
-            <div class="contactForm">
+            <!-- Contact form is temp disabled -->
+            <!-- <div class="contactForm">
                 <p style="margin-left:5px;">W celu skontaktowania się z nami wypełnij formularz</p>
                 <form method="POST" action="skontaktuj-sie-z-nami">
                     <input class="contactInputOne" type="text" name="imie" placeholder="Proszę podać imię" value="" />
@@ -30,13 +31,14 @@
                       <option value="5">Kontakt z administratorem strony</option>
                       <option value="6">Inne</option>
                     </select>
-                    <input class="contactInputFive" type="submit" value="Zatwierdź"/><input class="contactInputSix" type="button" value="Reset" /><?php
-              if($sentSuccess == true) {
-                  echo '<br /><font style="color:green;">Wiadomość została pomyślnie wysłana</font>';
-              }
+                    <input class="contactInputFive" type="submit" value="Zatwierdź"/><input class="contactInputSix" type="button" value="Reset" />
+                    <?php
+                        //if($sentSuccess == true) {
+                            //echo '<br /><font style="color:green;">Wiadomość została pomyślnie wysłana</font>';
+                       //}
                     ?>
                 </form>
-            </div>
+            </div> -->
             <div class="contactInfo">
                 <p style="margin-left:5px;">Nasze dane kontaktowe</p>
                 <p class="officeLocation">
